@@ -35,4 +35,18 @@ return [
         ],
     ],
 
+    'stripe' => [
+        'product' => env('STRIPE_PRODUCT_ID'),
+        'date_retry' => env('STRIPE_DATE_RETRY'),
+    ],
+
+    'resource_version' => env('RESOURCE_VERSION'),
+
+    'company' => [
+        'name' => env('COMPANY_NAME'),
+        'add1' => env('COMPANY_ADD1'),
+        'add2' => env('COMPANY_ADD2'),
+        'phone' => env('COMPANY_PHONE'),
+    ],
+
 ];
